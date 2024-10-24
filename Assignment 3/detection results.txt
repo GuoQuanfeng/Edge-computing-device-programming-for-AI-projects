@@ -1,0 +1,29 @@
+[TRT]    device GPU, /usr/local/bin/networks/SSD-Mobilenet-v2/ssd_mobilenet_v2_coco.uff initialized.
+[TRT]    W = 7  H = 100  C = 1
+[TRT]    detectNet -- maximum bounding boxes:  100
+[TRT]    detectNet -- loaded 91 class info entries
+[TRT]    detectNet -- number of object classes:  91
+[image]  loaded 'image.png'  (414x552, 3 channels)
+-- ClassID: 1
+-- Confidence: 0.964844
+-- Left: 24.7884521484375
+-- Top: 205.11328125
+-- Right: 113.203125
+-- Bottom: 455.77734375
+-- Width: 88.415
+-- Height: 250.664
+-- Area: 22162.380859375
+-- Center: (68.996, 330.445)
+
+-- ClassID: 1
+-- Confidence: 0.500488
+-- Left: 115.62890625
+-- Top: 219.12890625
+-- Right: 177.6884765625
+-- Bottom: 434.21484375
+-- Width: 62.060
+-- Height: 215.086
+-- Area: 13348.140625
+-- Center: (146.659, 326.672)
+
+[image]  saved 'saved_image.png'  (414x552, 3 channels)
